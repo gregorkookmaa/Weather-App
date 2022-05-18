@@ -323,3 +323,5 @@ C:\Users\GreX\Desktop\KTA-20-Mobiilirakendused-main\WeatherApp\WeatherApp\obj\De
 C:\Users\GreX\Desktop\KTA-20-Mobiilirakendused-main\WeatherApp\WeatherApp\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\GreX\Desktop\KTA-20-Mobiilirakendused-main\WeatherApp\WeatherApp\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\GreX\Desktop\KTA-20-Mobiilirakendused-main\WeatherApp\WeatherApp\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\GreX\Desktop\KTA-20-Mobiilirakendused-main\WeatherApp\WeatherApp\obj\Debug\110\res\layout\forecast_row.xml
+C:\Users\GreX\Desktop\KTA-20-Mobiilirakendused-main\WeatherApp\WeatherApp\obj\Debug\110\android\src\crc64be212a678c683515\ListAdapter.java

@@ -8,6 +8,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:minWidth="25px"
         android:minHeight="25px"
         android:id="@+id/cityEditText"
@@ -20,20 +21,28 @@
     <ImageView
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/weatherImageView" />
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/weatherImageView"
+        android:contentDescription="" />>
     <TextView
-        android:text="Text"
+        android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/TemperatureTextView"
         android:textSize="50px"
         android:textAlignment="center" />
     <TextView
-        android:text="Text"
+        android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/WindTextView"
         android:textSize="50px"
         android:textAlignment="center"/>
+    <ListView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/forecastListView" />
 </LinearLayout>

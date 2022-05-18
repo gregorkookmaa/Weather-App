@@ -1,6 +1,9 @@
 WeatherApp.MainActivity, WeatherApp;crc64a66eeea9f8259275.MainActivity
 WeatherApp.MainActivity;crc64a66eeea9f8259275.MainActivity
 weatherapp.MainActivity;crc64a66eeea9f8259275.MainActivity
+WeatherApp.Adapters.ListAdapter, WeatherApp;crc64be212a678c683515.ListAdapter
+WeatherApp.Adapters.ListAdapter;crc64be212a678c683515.ListAdapter
+weatherapp.adapters.ListAdapter;crc64be212a678c683515.ListAdapter
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner

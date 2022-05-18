@@ -5,6 +5,7 @@ using Android.Runtime;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using WeatherApp.Services;
+using WeatherApp.Adapters;
 
 namespace WeatherApp
 {
@@ -34,6 +35,10 @@ namespace WeatherApp
                 var imageBytes = await weatherService.GetImageFromUrl($"https://openweathermap.org/img/wn/{data.weather[0].icon}@2x.png");
                 var bitmap = await BitmapFactory.DecodeByteArrayAsync(imageBytes, 0, imageBytes.Length);
                 weatherImageView.SetImageBitmap(bitmap);
+
+                var forecastListView = FindViewById<ListView>(Resource.Id.forecastListView);
+                var weatherForecast = await weatherService.GetCityWeatherForecast(cityEditText.Text);
+                forecastListView.Adapter = new ListAdapter(this, weatherForecast.list);
             };
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

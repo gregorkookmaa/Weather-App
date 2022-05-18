@@ -12,8 +12,11 @@ external-path;C:\Users\GreX\Desktop\KTA-20-Mobiilirakendused-main\WeatherApp\Wea
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageView;obj\Debug\110\res\layout\activity_main.xml
+ImageView;obj\Debug\110\res\layout\forecast_row.xml
 item;obj\Debug\110\res\values\styles.xml
 LinearLayout;obj\Debug\110\res\layout\activity_main.xml
+LinearLayout;obj\Debug\110\res\layout\forecast_row.xml
+ListView;obj\Debug\110\res\layout\activity_main.xml
 paths;C:\Users\GreX\Desktop\KTA-20-Mobiilirakendused-main\WeatherApp\WeatherApp\obj\Debug\110\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;obj\Debug\110\res\values\colors.xml
 resources;obj\Debug\110\res\values\ic_launcher_background.xml
@@ -22,3 +25,4 @@ resources;obj\Debug\110\res\values\styles.xml
 string;obj\Debug\110\res\values\strings.xml
 style;obj\Debug\110\res\values\styles.xml
 TextView;obj\Debug\110\res\layout\activity_main.xml
+TextView;obj\Debug\110\res\layout\forecast_row.xml
